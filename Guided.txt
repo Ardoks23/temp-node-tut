@@ -30,11 +30,4 @@
 // for scripts package.json "start"  "start:" "node app.js"
 // for watching JS___ "dev" : nodemon app.js start
 // npm run dev -- 
-
-
-const _ = require('lodash');
-
-const items = [1,[2,[3,[4]]]]
-const newItems = _.flattenDeep(items);
-console.log(newItems)
-console.log("Hello world")
+// npm uninstall bootstrap -- stop
